@@ -1,6 +1,7 @@
 
 
 import Link from 'next/link';
+import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/nextjs';
 
 export default function Header() {
   return (
@@ -28,14 +29,14 @@ export default function Header() {
                 About
               </Link>
             </li>
-            {/* <li>
+            <li>
             <SignedIn>
               <UserButton />
             </SignedIn>
             <SignedOut>
               <SignInButton />
             </SignedOut>
-            </li> */}
+            </li>
           </ul>
         </nav>
       </div>
