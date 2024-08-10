@@ -1,3 +1,5 @@
+
+
 import Link from 'next/link';
 
 export default function Header() {
@@ -26,11 +28,14 @@ export default function Header() {
                 About
               </Link>
             </li>
-            <li>
-              <Link href='/sign-in' className='hover:text-white transition-colors duration-200'>
-                Sign In
-              </Link>
-            </li>
+            {/* <li>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+            <SignedOut>
+              <SignInButton />
+            </SignedOut>
+            </li> */}
           </ul>
         </nav>
       </div>
