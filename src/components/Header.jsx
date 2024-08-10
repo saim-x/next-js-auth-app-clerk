@@ -10,7 +10,7 @@ export default function Header() {
         {/* logo */}
         <Link href='/' className='text-2xl font-semibold text-white group cursor-pointer'>
           <span className='text-white group-hover:text-gray-300 transition-colors duration-200'>
-            Saim's
+            Saim
           </span>
           <span className='text-gray-400 group-hover:text-white transition-colors duration-200 ml-1'>
             Auth App
