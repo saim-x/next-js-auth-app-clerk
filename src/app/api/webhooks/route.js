@@ -56,6 +56,10 @@ export async function POST(req) {
     if (eventType === 'user.created') {
         console.log('User created by saim!')
     }
+    if (eventType === 'user.updated') {
+        console.log('User updated by saim!')
+    }
+    
 
     return new Response('', { status: 200 })
 }
