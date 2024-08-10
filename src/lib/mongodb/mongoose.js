@@ -8,7 +8,7 @@ export const connect = async () => {
     }
     try{
         await mongoose.connect(process.env.MONGODB_URI, {
-            dbName:"nextjs-auth-app",
+            dbName:"next-auth-app",
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
